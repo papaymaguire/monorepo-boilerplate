@@ -3,6 +3,7 @@ A preconfigured monorepo setup for full stack web app development.
 
 # Tools
 ## Version Management
+.gitignore has been configured for recommended Node standards.
 ## Package Manager and Workspace Provider
 ## Type Checking
 ## Code Linting
