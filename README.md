@@ -9,6 +9,7 @@ yarn has been configured as the package manager and workspace provider. Every ad
 ## Type Checking
 ## Code Linting
 ## Code Formatting
+## Editor
 ## Build Tool
 ## Test Tool
 ## CI/CD Integration and Pipeline
