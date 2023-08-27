@@ -1,11 +1,7 @@
 {
   "name": "@papaymaguire/eslint-config",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
-  "author": "",
-  "license": "ISC",
+  "description": "Base ESLint config for monorepo. Must be extended last so prettier settings are turned OFF.",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",

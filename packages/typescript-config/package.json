@@ -1,13 +1,9 @@
 {
   "name": "@papaymaguire/typescript-config",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Base tsconfig file for monorepo",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.2",
     "typescript": "^5.2.2"
-  },
-  "scripts": {},
-  "author": "",
-  "license": "ISC"
+  }
 }

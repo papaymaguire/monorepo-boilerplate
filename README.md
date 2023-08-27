@@ -1,4 +1,4 @@
-# monorepo-config
+# monorepo-boilerplate
 A preconfigured monorepo setup for full stack web app development.
 
 # Tools
@@ -6,14 +6,15 @@ A preconfigured monorepo setup for full stack web app development.
 .gitignore has been configured for recommended Node standards.
 ## Package Manager and Workspace Provider
 npm has been configured as the package manager and workspace provider. To add an additional package use ```npm init -y --scope {scope} -w {path to workspace}```
-@TODO: Add scripts to make using npm workspaces easier.
+@TODO: Add scripts to make using npm workspaces easier in root package.json
+@TODO: Add scripts to do boilerplate code
 ## Type Checking
 Typescript is used for type checking. Every additional package needs a tsconfig.json. The recommended format is:
 ```javascript
 {
   "extends": ["@papaymaguire/typescript-config/tsconfig.json", "most relevant tsconfig.json from https://github.com/tsconfig/bases"],
   "compilerOptions": {
-    "outDir": "dist",
+    "outDir": "./dist",
     "rootDir": ".",
   },
   "include": [
@@ -22,6 +23,7 @@ Typescript is used for type checking. Every additional package needs a tsconfig.
 }
 ```
 ## Code Linting
+@TODO: ESLINT CONFIG NEEDS WORK
 A shared ESLint Config is packaged. Every additional package needs a .eslintrc.json. The recommended format is:
 ```javascript
 {
