@@ -5,7 +5,9 @@ A preconfigured monorepo setup for full stack web app development.
 ## Version Management
 .gitignore has been configured for recommended Node standards.
 ## Package Manager and Workspace Provider
-npm has been configured as the package manager and workspace provider. To add an additional package use ```npm init -y --scope {scope} -w {path to workspace}```
+npm has been configured as the package manager and workspace provider. To add an additional package use: <br>
+```npm init -y --scope {scope} -w {path to workspace}```
+<br>
 @TODO: Add scripts to make using npm workspaces easier in root package.json
 @TODO: Add scripts to do boilerplate code
 ## Type Checking
