@@ -5,7 +5,8 @@ A preconfigured monorepo setup for full stack web app development.
 ## Version Management
 .gitignore has been configured for recommended Node standards.
 ## Package Manager and Workspace Provider
-npm has been configured as the package manager and workspace provider. Every additional package added needs its own package.json. To do this, create a new directory and use npm init -w <path to workspace>
+npm has been configured as the package manager and workspace provider. To add an additional package use ```npm init -y --scope {scope} -w {path to workspace}```
+@TODO: Add scripts to make using npm workspaces easier.
 ## Type Checking
 Typescript is used for type checking. Every additional package needs a tsconfig.json. The recommended format is:
 ```javascript
