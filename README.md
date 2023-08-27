@@ -5,7 +5,7 @@ A preconfigured monorepo setup for full stack web app development.
 ## Version Management
 .gitignore has been configured for recommended Node standards.
 ## Package Manager and Workspace Provider
-yarn has been configured as the package manager and workspace provider. Every additional package added needs its own package.json. To do this, create a new directory and use yarn init
+npm has been configured as the package manager and workspace provider. Every additional package added needs its own package.json. To do this, create a new directory and use npm init -w <path to workspace>
 ## Type Checking
 Typescript is used for type checking. Every additional package needs a tsconfig.json. The recommended format is:
 ```javascript
@@ -23,6 +23,7 @@ Typescript is used for type checking. Every additional package needs a tsconfig.
 ## Code Linting
 ## Code Formatting
 ## Editor
-## Build Tool
-## Test Tool
+## Test Tools
+Cypress is used for e2e testing and Jest is used for component testing.
 ## CI/CD Integration and Pipeline
+Turborepo + CircleCI
